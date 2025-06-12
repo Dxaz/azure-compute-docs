@@ -87,7 +87,7 @@ If you know you will not ever reinstall the Linux Agent again, then you can run 
 #### For Ubuntu 18.04+
 
 ```bash
-sudo pt -y purge walinuxagent
+sudo apt -y purge walinuxagent
 sudo cp -rp /var/lib/waagent /var/lib/waagent.bkp
 sudo rm -rf /var/lib/waagent
 sudo rm -f /var/log/waagent.log
